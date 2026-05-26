@@ -12,37 +12,24 @@ public class QuizGame {
         System.out.println(" QUIZ GAME ");
         System.out.println("=================================");        
       
-        System.out.println("\n1. Who developed Java?\n// Question 10
-System.out.println("\n10. Which keyword is used to create a class in Java?");
+ 
+System.out.println("\n1. Which keyword is used to create a class in Java?\n");
+
 System.out.println("A. function");
 System.out.println("B. define");
 System.out.println("C. class");
 System.out.println("D. object");
 
 System.out.print("Enter Answer: ");
-char q10 = input.next().charAt(0);
+char q1 = input.next().charAt(0);
 
-if (q10 == 'C' || q10 == 'c') {
-    System.out.println("Correct Answer!");
-    score++;
+if (q1 == 'C' || q1 == 'c') {
+    System.out.println("Correct!");
+    marks++;
 } else {
-    System.out.println("Wrong Answer!");
-}");
-        System.out.println("A. Google");
-        System.out.println("B. Microsoft");
-     System.out.println("C. Sun Microsystems");
-        System.out.println("D. Apple");
+    System.out.println("Wrong!");
+}
 
-        System.out.print("Choose your answer: ");
-        char q1 = input.next().charAt(0);
-
-        if (q1 == 'C' || q1 == 'c') {
-            System.out.println("Correct!");
-            marks++;
-        } else {
-            System.out.println("Wrong!");
-        }
-        
  System.out.println("\n2. What is the default value of int in Java?\n");
 System.out.println("A. 0");
 System.out.println("B. null");
@@ -91,20 +78,20 @@ if (q2 == 'A' || q2== 'a') {
             System.out.println("Wrong!");
         }   
            
-System.out.println("\n5. Which keyword is used to create a class in Java? \n");
-System.out.println("A. function");
-System.out.println("B. define");
-System.out.println("C. class");
-System.out.println("D. object");
+System.out.println("\n5. Which package contains Scanner class?");
+System.out.println("A. java.io");
+System.out.println("B. java.util");
+System.out.println("C. java.lang");
+System.out.println("D. java.net");
 
 System.out.print("Enter Answer: ");
-char q5= input.next().charAt(0);
+char q5 = input.next().charAt(0);
 
-if (q5 == 'C' || q5 == 'c') {
-    System.out.println("Correct!" );
-    marks ++;
+if (q5 == 'B' || q5 == 'b') {
+    System.out.println("Correct!");
+    marks++;
 } else {
-    System.out.println("Wrong Answer!");
+    System.out.println("Wrong!");
 }
   
               System.out.println("\n=================================");
